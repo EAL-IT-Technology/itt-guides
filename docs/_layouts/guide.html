@@ -1,0 +1,9 @@
+---
+layout: post
+---
+
+{% if page.status != "approved" %}
+<em>Warning: This page has {{ page.status }} status</em>
+{% endif %}
+
+{{ content }}
