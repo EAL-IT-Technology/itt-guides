@@ -34,3 +34,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  guides:
+    output: true
