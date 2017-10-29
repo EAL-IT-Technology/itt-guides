@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   This is to be a collection of guides for use in the IT technology education.
   We will aim for diversity and readily applicable guides.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/itt-guides" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bigmoozer
 github_username:  bigmoozer
