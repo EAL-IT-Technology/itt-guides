@@ -44,6 +44,7 @@ We will assume that we are interested in creating a L3 diagram of IPv4.
     * UDP/123: NTP
     * UDP 67,68: BOOTP, DHCP
     * TCP/22: SSH
+
     A list of "wellknown ports" are found [here](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
 
     Note that TCP and UDP connections always have two port number: one for the client and one for the server. Clients *usually* have very high numbers like 20.000+, while servers serve at lower port number mostly below 1000.
@@ -58,4 +59,4 @@ We will assume that we are interested in creating a L3 diagram of IPv4.
     * DNS, LLNMR, MDNS, NBNS and others are nameservices, which will tell the name of a given device
     * Telnet, HTTP and FTP are un-encrypted protocols and all traffic (like passwords) are directly readable
 
-    Note that wireshrk supports "right-clicking", which gives access to `apply as filer -> selected`, which will limit the packages whown in wireshark.
+    Note that wireshark supports "right-clicking", which gives access to `apply as filer -> selected`, which will limit the packages whown in wireshark.
