@@ -8,7 +8,7 @@ status: beta
 
 # Use case
 
-Webservers are widely used to serve html pages with or without dynamic content.
+Webservers are widely used to serve html pages with or without dynamic content. Start [here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) for a quick introduction.
 
 It is also a very good example service for minimal servers in a network system to illustrate connectivity and test [port forwards](https://en.wikipedia.org/wiki/Port_forwarding).
 
