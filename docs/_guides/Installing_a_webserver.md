@@ -61,7 +61,7 @@ This guide is for Debian (and ubuntu based systems) and we will install [lighttp
 
     This will download `index.html`. To see it, use `cat index.html`
 
-3. Start your browser and got to `http://<ip address>`
+3. Start your browser and go to `http://<ip address>`
 
 
 # Remarks
