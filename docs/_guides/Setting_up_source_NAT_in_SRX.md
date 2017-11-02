@@ -32,7 +32,7 @@ use ie. VMnet15 - Network adapter 4 (interface ge0/0/3)
     traffic system-services all
     [edit security zones]
     root@vSRX1# commit
-    commit completeNow your security zones for ge-0/0/3 should look like this (highlighted):
+    commit completeNow your security zones for ge-0/0/3 should look like this:
     [edit security zones]
     root# show
     security-zone trust {
@@ -140,10 +140,21 @@ configure a security policy that allows traffic from the trust zone to the untru
               interface;
           }
     ```
+If you want google.com to work and the webserver on your host, you need to setup a DNS server on your router. You do that, by writing these two lines in the cli edit mode:
+    [edit]
+    root@vSRX1# set system name-server 208.67.222.222
+    root@vSRX1# set system name-server 208.67.220.220
+    root@vSRX1# commit
+    commit complete
+    root@vSRX1# show system name-server
+    208.67.222.222;
+    208.67.220.220;
+
 
 ## Test
 Now you should be able to ping 8.8.8.8 from your vSRX router, and any hosts you have working on your
-network. 
+network.
+And if you made the DNS on your router, you should be able to ping google.com and setup a webserver on your host.
 
 Remember If you have several routers interconnected, you must use `set static route
 0.0.0.0/0 next-hop <ip address>` to the router with the NAT service.
