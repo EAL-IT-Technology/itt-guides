@@ -1,6 +1,6 @@
 ---
 layout: guide
-date:   2017-11:29 09:00:00 +0200
+date:   2017-11-29 09:00:00 +0200
 title:  How do I create and use a recovery plan
 categories: tech
 status: beta
