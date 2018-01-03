@@ -78,40 +78,40 @@ references:
 
 2. create script to run on the VMs
 
-            a) linux: Use a script
+    a) linux: Use a script
 
-            The script includes the commands that you otherwise need to type manually,
+    The script includes the commands that you otherwise need to type manually,
 
-            `wget` on is useful.
+    `wget` on is useful.
 
-                        ```
-                        #!/bin/sh
+            ```
+            #!/bin/sh
 
-                        apt-get install apache
-                        wget config
-                        cp to somewhere
+            apt-get install apache
+            wget config
+            cp to somewhere
 
-                        cd /var/www/http
-                        git clone website
+            cd /var/www/http
+            git clone website
 
-                        service restart apache
+            service restart apache
 
 
-                        ```
+            ```
 
-            b) Junos: `load override`
+    b) Junos: `load override`
 
-            You default image will not have much in terms of config.
+    You default image will not have much in terms of config.
 
-            A sequence like
+    A sequence like
 
-                        ```
-                        edit
-                        load override scp://<serverip>/config
-                        commit
-                        ```
+            ```
+            edit
+            load override scp://<serverip>/config
+            commit
+            ```
 
-            This could work well with `archive-sites`
+    This could work well with `archive-sites`
 
 3. Use `expect` in bash or paramiko to execute the scripts
 
