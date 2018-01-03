@@ -84,20 +84,18 @@ references:
 
     `wget` on is useful.
 
-            ```
-            #!/bin/sh
+        ```
+        #!/bin/sh
 
-            apt-get install apache
-            wget config
-            cp to somewhere
+        apt-get install apache
+        wget config
+        cp to somewhere
 
-            cd /var/www/http
-            git clone website
+        cd /var/www/http
+        git clone website
 
-            service restart apache
-
-
-            ```
+        service restart apache
+        ```
 
     b) Junos: `load override`
 
@@ -105,11 +103,11 @@ references:
 
     A sequence like
 
-            ```
-            edit
-            load override scp://<serverip>/config
-            commit
-            ```
+        ```
+        edit
+        load override scp://<serverip>/config
+        commit
+        ```
 
     This could work well with `archive-sites`
 
