@@ -25,21 +25,21 @@ Your guide will have some distinct parts, depending on which baseline you have d
 
 2. create a script to automate installation of hypervisor. A skeleton will look like this:
 
-```
-#!/bin/sh
+      ```
+      #!/bin/sh
 
-VMWARE_FILENAME="VMware-Workstation-Full-12.5.7-5813279.x86_64.bundle"
-VMWARE_DOWNLOAD_URL="http://somewhere/$VMWARE_FILENAME"
+      VMWARE_FILENAME="VMware-Workstation-Full-12.5.7-5813279.x86_64.bundle"
+      VMWARE_DOWNLOAD_URL="http://somewhere/$VMWARE_FILENAME"
 
-echo retrieving vmware
-wget $VMWARE_DOWNLOAD_URL
-chmod +x $VMWARE_FILENAME
-echo (this step can be automated further)
-sudo $VMWARE_FILENAME
+      echo retrieving vmware
+      wget $VMWARE_DOWNLOAD_URL
+      chmod +x $VMWARE_FILENAME
+      echo (this step can be automated further)
+      sudo $VMWARE_FILENAME
 
-echo (not included: stuff related to building and installing kernel modules...)
-echo (not included: automatically adding license key)
-```
+      echo (not included: stuff related to building and installing kernel modules...)
+      echo (not included: automatically adding license key)
+      ```
 
 3. set up vmnets
    
