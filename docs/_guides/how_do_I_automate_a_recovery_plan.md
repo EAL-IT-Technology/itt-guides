@@ -80,9 +80,9 @@ references:
 
     a) linux: Use a script
 
-        The script includes the commands that you otherwise need to type manually,
+     The script includes the commands that you otherwise need to type manually,
 
-        `wget` on is useful.
+     `wget` on is useful.
 
 ```
 #!/bin/sh
@@ -99,11 +99,11 @@ service restart apache
 
 ```
 
-    b) Junos: `load override`
+ b) Junos: `load override`
 
-        You default image will not have much in terms of config.
+     You default image will not have much in terms of config.
 
-        A sequence like
+     A sequence like
 
   ```
   edit
@@ -111,7 +111,7 @@ service restart apache
   commit
   ```
 
-        This could work well with `archive-sites`
+     This could work well with `archive-sites`
 
 3. Use `expect` in bash or paramiko to execute the scripts
 
