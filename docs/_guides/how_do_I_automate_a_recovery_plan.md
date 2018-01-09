@@ -23,32 +23,18 @@ Your guide will have some distinct parts, depending on which baseline you have d
 
 1. assume that you have a functioning debian host
 
-2. create a script to automate installation of hypervisor. A skeleton will look like this:
+2. create a script to automate installation of hypervisor.
 
-            ```
-            #!/bin/sh
+    Go [here](https://gist.github.com/moozer/831ee13acec17dfc9a35d32caafe067f/raw/96dbe927a6186295d2cc9bdfd3b9d15d53e65916/install_vmware.sh) for a complete install script of vmware workstation on Debian
 
-            VMWARE_FILENAME="VMware-Workstation-Full-12.5.7-5813279.x86_64.bundle"
-            VMWARE_DOWNLOAD_URL="http://somewhere/$VMWARE_FILENAME"
-
-            echo retrieving vmware
-            wget $VMWARE_DOWNLOAD_URL
-            chmod +x $VMWARE_FILENAME
-            echo (this step can be automated further)
-            sudo $VMWARE_FILENAME
-
-            echo (not included: stuff related to building and installing kernel modules...)
-            echo (not included: automatically adding license key)
-            ```
-
+    It includes whatever patcehs are need to make vmware work.
+    
 3. set up vmnets
    
    Look into the commandline tools called `vmware-networks`
 
 references: 
 * [official vmware documentation](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
-* gcc error [solution](https://stackoverflow.com/questions/45912140/gcc-6-4-0-error-with-vmware-player-and-kali-linux)
-* [patching](https://communities.vmware.com/thread/568089)
 
 # create and setup virtual machines in the hypervisor environment
 
