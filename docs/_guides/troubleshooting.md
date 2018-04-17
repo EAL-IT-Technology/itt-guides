@@ -28,4 +28,26 @@ This is basically a series of questions, that should guide you whenever you get 
 
     Formulate what you think is working, and what you think is not working. This help you narrow donw were to focus
     
-3. 
+3. How do you know?
+
+    You think you know the state of your system, and you have some clues. Figure out whether or not you are on solid ground with your working/not wokring assumptions.
+    This could includes tests to make it obvious.
+
+4. What do you think is wrong?
+
+    You now know the state, you know what you want to achieve and it is not obvious why stuff i not working. Make a hypothesis, ie. give it your best guess. Now would be a good time to include others and ask for help, if you don't have any ideas. 
+    Going through point 1, 2 and 3, while telling what you see, will force you to formulate what you are doing, and will often result in the solution being obvious. Really - this is the magic IT supporter trick
+    
+5. How to test?
+
+    Having decided on a candidate for what is wrong, devise a test that shows whether or not your hypothesis is correct.
+    
+6. Test it
+
+    This can have one of two outcomes: 1) you were right and now you know what is wrong or 2) you were wrong.
+    In case 2, you must go back review 2 and 3, and come up with new ideas for 3 and 4.
+    
+7. Fix it
+
+    Sounds easy, and sometimes it is. At other times, finding the solution is difficult or it desn't exist. 
+    If the solution is not to be found, point 1 must be revised.
