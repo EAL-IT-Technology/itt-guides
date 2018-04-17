@@ -40,7 +40,22 @@ This ends up in a document that all team members agree upon.
 
 1. Team members
 
-    Make a list of who is in the team
+    Make a list of who is in the team along with contact information like email adresses, facebook links, riot usernames and the like, depending on you prefered means of communication.
+    
+
+2. Social aspects
+
+    In order to work together in an effective manner, some level of mutual understanding is necesary. In the group agree upon questions like:
+    * When are you avilable? 
+    * When are you physically present?
+    * How do you inform of absence? 
+    * What workload and workhours are agreeds upon?
+    * How do you handle non-compliance?
+    * How and when may you ask for help?
+    * When must you ask for help?
+   
+   
+    Having discussed and agreed upon the basic social rules for your group will prevent a lot of issues before they arize.
 
 2. Decide on communication channels
 
