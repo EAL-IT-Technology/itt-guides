@@ -1,9 +1,9 @@
-## Description
+# Description
 Using config files when programming allows for the program/script to read confidential
 information from a file external to the program. This makes the program/script more
 secure as the information is store somewhere else.
 
-## Source Code
+# Source Code
 
 		SOURCING(Bash)                  |		Config File
                                                 |
