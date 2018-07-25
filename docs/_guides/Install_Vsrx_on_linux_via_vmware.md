@@ -2,7 +2,7 @@
 date: 2018-08-25 23:00:00 +0000
 layout: guide
 title:  Install Vsrx on a linux machine using vmware
-categories: vmware
+categories: vmware/Linux
 status: beta
 ---
 
@@ -37,6 +37,8 @@ but with registration.
 https://www.juniper.net/support/downloads/?p=vsrx#sw
 
 --
+
+
 Go to: oeait17eiC > 1st Semester > Data Communication > Software
 
 If you can't navigate on fronter look below :-)
@@ -48,6 +50,10 @@ Click on the "1st Semester" tab.
 
 Go into the files having the string: oeait17eiC > 1st Semester > Data Communication > Software
 
+
+Download the 3 files within and save them into a directory (all in the same one)
 --
+
+
 
 
