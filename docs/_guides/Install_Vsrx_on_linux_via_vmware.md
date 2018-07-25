@@ -102,3 +102,5 @@ Now to install the Vsrx image
 7. Find the file that has a ending om " .vmdk" and choose Open
 
 8. Click Finish and choose "keep Existing Format"
+
+9. From here it should work, but it is not booting
