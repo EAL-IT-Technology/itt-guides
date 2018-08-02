@@ -53,8 +53,13 @@ Click on the "1st Semester" tab.
 Go into the files having the string: oeait17eiC > 1st Semester > Data Communication > Software
 
 
-Download the 3 files within and save them into a directory (all in the same one)
+Download the 2 files with the format ( .vmdk and .ovf)
+within and save them into a directory (all in the same one)
 --
+
+Avoid the .mf file
+==================
+
 
 Vmware
 ======
@@ -66,41 +71,16 @@ Opening vmware as root from the command-line can be done with the command <sudo 
 
 When vmware is open, **MAKE SURE NOT TO HAVE HIGHLIGHTED "Shared VMs" INSTEAD HIGHLIGHT "My Computer"**
 
-1. Click on "File > create new virtual machine" Or just ctrl + n
+1. Click on "File > Open" Or just ctrl + O
 
-2. Choose "Typical (recommended)" (depending on your vmware version), click next .
+2. Navigate to the folder you saved the 2 files in, and select the junos-vsrx-12.1X47-D15.4-domestic.ovf
 
-3. Choose "I will install operation system later"
+3. Choose a fitting name, and a location.
 
-4. Choose the option 6. Other, and find the " Version: FreeBSD 11 64-bit "
-This part is no "too" important what you choose, it is somewhat nessacary to how vmware suggest to format the disks.
-For example if windows is chosen install a linux distro, fat32 will be suggested, and possible not the linux structure you want.
+4. Click on import, and wait
 
-5. Enter a name and save it somewhere.
-
-6. Choose disk size to be 1.0 GB and **STORE VIRTUAL DISK AS A SINGLE FILE"
-
-7. Finish the installation.
+5. You should now have a working vSRX (Try booting it for testing)
 
 __
 
-Now to install the Vsrx image
--
 
-1. Click on " Edit virtual machine settings"
-
-2. Highlight Hard Disk and click on remove.
-
-3. Click on add, and choose Hard Disk
-
-4. ** Not sure which type to choose here ** Choosing IDE
-
-5.  Click on "Use existing Virtual disk" 
-
-6. Click on browse, and find the directory with your vSRX files.
-
-7. Find the file that has a ending om " .vmdk" and choose Open
-
-8. Click Finish and choose "keep Existing Format"
-
-9. From here it should work, but it is not booting
