@@ -1,7 +1,7 @@
 ---
 layout: guide
-date:   2018-06-11 12:00:00 +0200
-title:  How do I use config files?
+date:   2019-03-05 12:00:00 +0200
+title:  Using REST APIs
 categories: tech
 status: beta
 ---

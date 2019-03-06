@@ -1,6 +1,6 @@
 ---
 layout: guide
-date:   2017-05-30 21:00:39 +0200
+date:   2019-03-02 21:00:39 +0200
 title:  How do I create a bug report?
 categories: tech
 status: beta
